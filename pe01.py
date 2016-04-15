@@ -22,3 +22,8 @@ print s
 #output:
 #233168
 #233168
+
+#if n is big, e.g., n=100000000, time used in 
+# method 1 2333333316666668 26.0493518802 (for n=1000, time used is 0.000236084285511)
+# method 2 2333333316666668 1.36860455378e-05 (for n=1000, time used is 3.42151138422e-06, almost no change from n=1000)
+# 
