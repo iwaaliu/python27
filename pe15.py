@@ -15,3 +15,17 @@ exit()
 
 #output
 #137846528820
+
+# the following is recursive method. It is simple to understand the problem, but it is very slow when grid size is large.
+# def g(a,b):
+#     if (a==1 or b==1):
+#         c=1
+#     else:
+#         c=g(a-1,b)+g(a,b-1)
+#     return c
+#
+# a=15
+# b=a
+# d=g(a,b)
+# print d
+# exit()
